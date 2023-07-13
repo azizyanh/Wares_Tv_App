@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+@media only screen and (max-width: 1280px) {
+  * {
+    font-size: 6.66666667px;
+  }
+}
+
+
+body {
+  font-family: sans-serif;
+  background-image: url(../img/bg.png);
+  background-size: cover;
+}
+
+.container {
+  width: 100%;
+}
+
+
+.login-content {
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3.5rem;
+}
+
+.header_login-img {
+  height: 9rem;
+  background-repeat: no-repeat;
+}
+
+.header__login {
+  width: 40rem;
+}
+
+.search__inp {
+  width: 100%;
+  font-size: 4rem;
+  border: transparent;
+  padding: 1rem;
+  background-color: rgba(98, 97, 100, .40);
+  color: white;
+  border-radius: .5rem;
+  font-weight: bold;
+  outline: none;
+}
+
+.search__button {
+  text-align: center;
+  cursor: pointer;
+}
+
+.search__button:hover {
+  background-color: #3ca45f;
+}
+
+.login__block-item-active {
+  border: .5rem solid #3ca45f;
+}
+
+.login__block-item {
+  height: 4rem;
+  font-family: sans-serif;
+  font-size: 2rem;
+  padding: 0 3rem;
+}
+
+.input__login {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+  margin-top: 5rem;
+}
+
+.login__button {
+  margin: 2rem;
+  width: 100%;
+  height: 4rem;
+  font-size: 2rem;
+  padding: 0 3rem;
+  background-color: rgba(98, 97, 100, .40);
+  color: white;
+  border-radius: .5rem;
+  border: .5rem solid transparent;
+  font-weight: bold;
+  text-align: center;
+  outline: none;
+}
+
+.search__inp::placeholder {
+  font-size: 2.9rem;
+}
+
+.version {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  color: #fff;
+}
+
+.app__version {
+  position: absolute;
+  right: 1.5rem;
+  bottom: 1rem;
+  font-size: 30px;
+  color: #fff;
+}
+
+.keyboard__block {
+  position: f;
+  margin-top: 10rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 1.8rem;
+}
+
+.keyboard__inner-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 120rem;
+  height: 35rem;
+  padding: 0 20px;
+}
+
+.keyboard__row {
+  display: flex;
+  gap: 6px;
+  height: 25%;
+  width: 100%;
+}
+
+.key {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.8rem;
+  text-align: center;
+  width: 18rem;
+  height: 100%;
+  background-color: #35343a;
+  color: #fff;
+  font-weight: bold;
+  padding: 7px;
+  cursor: pointer;
+}
+
+.done__login {
+  width: 34%;
+  color: #fff;
+}
+
+.clear__input {
+  width: 34%;
+}
+
+.key:hover {
+  background-color: #3ca45f;
+}
+
+.active-key {
+  background-color: #3ca45f;
+}
+
+
+.space {
+  width: 84rem;
+}
+
+.bspacer {
+  background-image: url(../img/keyboard/backspace.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 40%;
+  background-size: 4rem;
+}
+
+.shift__lang {
+  background-image: url(../img/keyboard/shift.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 3.5rem;
+}
+
+
+.invalid__text {
+  display: none;
+  font-size: 3rem;
+  color: #f80c0c;
+  height: 3rem;
+}

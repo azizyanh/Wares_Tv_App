@@ -18,7 +18,7 @@
 .block_link .block__inner-Link {
   width: 7rem;
   height: 7rem;
-  background-image: url(./img/icons/back.png);
+  background-image: url(../img/icons/back.png);
   background-repeat: no-repeat;
   background-size: 3rem;
   background-position: 40%;
@@ -78,7 +78,7 @@
   font-weight: bold;
   position: relative;
   width: 100%;
-  height: 8rem;
+  height: 10%;
   background-color: #35343a;
   margin-bottom: 1rem;
   cursor: pointer;
@@ -94,7 +94,7 @@
 }
 
 .block__video .active {
-  background-image: url(./img/player/settingsActive.png) !important;
+  background-image: url(../img/player/settingsActive.png) !important;
   background-color: transparent !important;
 }
 

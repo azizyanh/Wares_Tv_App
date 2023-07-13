@@ -45,22 +45,22 @@
 }
 
 .tv {
-  background-image: url(./img/menu/tv.png);
+  background-image: url(../img/menu/tv.png);
   background-size: 45%;
 }
 
 .movies {
-  background-image: url(./img/menu/MOVIES.png);
+  background-image: url(../img/menu/MOVIES.png);
   background-size: 49%;
 }
 
 .series {
-  background-image: url(./img/menu/series.png);
+  background-image: url(../img/menu/series.png);
   background-size: 40%;
 }
 
 .settings {
-  background-image: url(./img/menu/SETTINGS.png);
+  background-image: url(../img/menu/SETTINGS.png);
   background-size: 40%;
 }
 

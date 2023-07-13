@@ -128,7 +128,7 @@
 }
 
 .move_actor {
-  padding: 0 2rem ;
+  padding: 0 2rem;
   font-size: 2.2rem;
   color: #929292;
   line-height: 4rem;
@@ -151,7 +151,7 @@
 }
 
 .reting {
-  background-image: url(./img/icons/favorite.png);
+  background-image: url(../img/icons/favorite.png);
 }
 
 .move_parent_reting {
@@ -165,5 +165,5 @@
 
 
 .time {
-  background-image: url(./img/icons/time.png);
+  background-image: url(../img/icons/time.png);
 }

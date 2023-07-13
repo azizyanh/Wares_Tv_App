@@ -43,7 +43,7 @@
 }
 
 .pin__input:hover {
-  background-color:  #2e844e
+  background-color: #2e844e
 }
 
 .block__inner {
@@ -56,9 +56,9 @@
 
 .block__inner-Link {
   position: absolute;
-  width: 7rem;
-  height: 7rem;
-  background-image: url(./img/icons/back.png);
+  width: 8rem;
+  height: 8rem;
+  background-image: url(../img/icons/back.png);
   background-repeat: no-repeat;
   background-size: 3rem;
   background-position: 40%;

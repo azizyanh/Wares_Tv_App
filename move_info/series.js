@@ -32,7 +32,7 @@ function series_elements(seriesCategory, series) {
 
   back_button.classList.add(
     "block__inner-Link",
-    "setings__item-block",
+    // "setings__item-block",
     "back",
     "key_elem",
     "active-key"
@@ -55,7 +55,7 @@ function series_elements(seriesCategory, series) {
 
     category_inner_parent.classList.add(
       "category_inner_parent",
-      "setings__item-block",
+      // "setings__item-block",
       "series__row"
     );
 
@@ -257,13 +257,18 @@ function select_movie() {
   }
 }
 
+
+
 function getsearchMovies(searchinputValue) {
+  console.log(searchinputValue);
   if (!searchAllMovies) return;
   if (!searchinputValue) return searchrenderMovies([]);
 
   searchdataMovies = searchAllMovies.filter(function (el) {
+
     return el.name.toLowerCase().includes(searchinputValue.toLowerCase());
   });
+
   searchrenderMovies(searchdataMovies);
 }
 
@@ -279,7 +284,7 @@ function searchrenderMovies(searchedMovies) {
   let searchMoviesblock = document.createElement("div");
   searchMoviesblock.classList.add("search__movie-row");
 
-  if (searchedMovies.length > 0) {
+  if (searchedMovies.length) {
     moviesSearchBlock.innerHTML = "";
     notafound.style.display = "none";
 

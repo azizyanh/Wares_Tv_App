@@ -694,7 +694,7 @@ function channel_inner_item(CHanaleBlockData) {
 
 
 function update_channel_inner_item(data) {
-	let channel_item_row = document.querySelector(".channelssss");
+	let channel_item_row = document.querySelector("div .channelssss");
 	channel_item_row.innerHTML = "";
 
 	data.forEach((item, index) => {

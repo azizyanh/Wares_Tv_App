@@ -546,11 +546,11 @@ document.addEventListener("keydown", function (event) {
 
 		} else if (event.code === "Backspace") {
 			document.querySelector(".container").innerHTML = "";
-			// currentBlock = "moveinfo";
-			// moveblock();
-			// moveplayindex = 1;
-			// addmoveinfo();
-			// moveInfo();
+			currentBlock = "moveinfo";
+			moveblock();
+			moveplayindex = 1;
+			addmoveinfo();
+			moveInfo();
 		}
 	} else if (currentBlock === "player_settings_row") {
 		let player_item_set = document.querySelectorAll(".player_item")
@@ -797,6 +797,7 @@ function login_elements(keyboardCharacters, input) {
 				} else if (currentKey == "bspace") {
 					currentInput.value = currentInput.value.slice(0, -1);
 					update_channel_inner_item(channals);
+					console.log(getsearchMovies(searchdataMovies));
 				} else if (currentKey == "Shift") {
 					if (currentKey === "Shift") {
 						keyboard.style.textTransform = "uppercase";
