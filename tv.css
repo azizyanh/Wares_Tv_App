@@ -1,0 +1,575 @@
+.tv_block {
+    width: 98%;
+    height: 96%;
+    position: absolute;
+    margin: 1%;
+    top: 0;
+    left: 0;
+}
+
+.tv_block_heder {
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    display: inline-block;
+    left: 1%;
+}
+
+.tv_top_block {
+    position: relative;
+    width: 98%;
+    height: 8%;
+    margin-bottom: 1%;
+    background-color: #35343a;
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
+
+.tv_category_all {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 15%;
+    height: 100%;
+    background-image: url(../img/icons/category.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: 50%;
+}
+
+.tv_top_block:hover {
+    background-color: #504e56;
+}
+
+.category_all_block {
+    position: absolute;
+    width: 85%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    border-radius: 0.4rem;
+}
+
+.category_text_title {
+    position: absolute;
+    color: #fff;
+    font-size: 3.5rem;
+    top: 30%;
+    padding-left: 2%;
+    font-weight: bold;
+    overflow: hidden;
+    height: 60%;
+    padding-right: 10%;
+}
+
+.category_parent_block {
+    width: 100%;
+    height: 100;
+    position: absolute;
+    padding: 2%;
+    opacity: 1;
+    transition: all 0.5s linear 0;
+}
+
+
+.category_list {
+    width: 100%;
+    padding-right: .3%;
+    height: 100%;
+}
+
+.category_item {
+    position: relative;
+    width: 100%;
+    height: 12.3%;
+    background-color: #35343a;
+    margin-bottom: 1.5%;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.category_item:hover {
+    background-color: #504e56;
+}
+
+.category_inner_item {
+    display: inline-block;
+    width: 82%;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bold;
+    overflow: hidden;
+    height: 40%;
+    line-height: 5rem;
+}
+
+.tv_player_block {
+    width: 57%;
+    height: 100%;
+    position: absolute;
+    display: inline-block;
+    right: 1%;
+    opacity: 1;
+    z-index: 1;
+}
+
+.tv_video_parent {
+    width: 100%;
+    height: 65%;
+    object-fit: fill;
+    background-color: #000000;
+    position: relative;
+}
+
+.tv_epg_loded {
+    display: inline-block;
+    width: 7.6rem;
+    height: 7.8rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.tv_epg_loded::after {
+    content: " ";
+    display: block;
+    width: 6.4rem;
+    height: 6.4rem;
+    border-radius: 50%;
+    border: .6rem solid #fff;
+    border-color: #fff transparent #fff transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+}
+
+@keyframes lds-dual-ring {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+.time_block {
+    border-radius: 0.4rem;
+    width: 100%;
+    height: 8%;
+    background: #35343a;
+    margin-bottom: 2%;
+    font-size: 3.5rem;
+    color: white;
+    font-weight: bold;
+    line-height: 8rem;
+}
+
+.day_element {
+    font-size: 3.5rem;
+    color: white;
+    font-weight: bold;
+    line-height: 8rem;
+    padding-left: 1.8rem;
+    float: left;
+}
+
+.hours {
+    font-size: 3.5rem;
+    color: white;
+    font-weight: bold;
+    line-height: 8rem;
+    padding-right: 1.8rem;
+    float: right;
+}
+
+.tv_loading {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.video_inner {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+
+.curent_channel {
+    width: 100%;
+    height: 15%;
+    margin-top: 1%;
+    background: #35343a;
+    border-radius: 0.4rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url(https://www.lyngsat.com/logo/tv/bb/bharat-24-in.png); */
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: 16% center;
+}
+
+.curent_channel_number {
+    width: 13%;
+    display: inline-block;
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.icons {
+    background-image: url("https://www.lyngsat.com/logo/tv/bb/bharat-24-in.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 11%;
+    height: 56%;
+}
+
+
+.curent_channel_info {
+    width: 70%;
+    margin-left: 5%;
+    display: inline-block;
+    color: white;
+    font-size: 3rem;
+    height: 90%;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.icon {
+    width: 70%;
+    margin-left: 15%;
+    display: inline-block;
+    color: white;
+    font-size: 3rem;
+    height: 90%;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.curent_channel_name {
+    font-size: 3rem;
+    height: 33%;
+    overflow: hidden;
+    line-height: 5rem;
+}
+
+.curent_channel_epg {
+    height: 65%;
+    overflow: hidden;
+    font-size: 3rem;
+    position: relative;
+    font-weight: normal;
+}
+
+.curent_epg,
+.next_epg {
+    height: 45%;
+    margin-top: 0.5%;
+    display: flex;
+    align-items: center;
+}
+
+.curent_epg_title,
+.nex_time_title {
+    font-size: 3rem;
+    width: 55rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.curent_time {
+    font-size: 3rem;
+    display: inline-block;
+    width: 9rem;
+    color: #2e844e;
+}
+
+.nex_time {
+    font-size: 3rem;
+    display: inline-block;
+    width: 9rem;
+    color: #2e844e;
+}
+
+.info_button {
+    width: 100%;
+    height: 8%;
+    margin-top: 1%;
+    background: #35343a;
+    border-radius: 0.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.info_button .red_btn::before {
+    background-color: red;
+}
+
+.info_button .red_btn::after {
+    content: "";
+    position: absolute;
+    right: 5%;
+    top: 22%;
+    width: 1.8rem;
+    height: 2.1rem;
+    background-image: url(./img/icons/arrow.png);
+    background-repeat: no-repeat;
+    background-size: 1.8rem;
+    background-position: 0 center;
+    visibility: hidden;
+}
+
+
+.info_button .red_btn.asc::after {
+    transform: rotate(180deg);
+    visibility: visible;
+}
+
+.info_button .red_btn.desc::after {
+    visibility: visible;
+}
+
+.info_button .green_btn::before {
+    background-color: green;
+}
+
+.info_button .yellow_btn::before {
+    background-color: yellow;
+}
+
+.info_button .blue_btn::before {
+    background-color: blue;
+}
+
+.info_options_btn {
+    position: relative;
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+    padding-left: 7%;
+    padding-right: 3%;
+}
+
+.info_options_btn::before {
+    content: "";
+    width: 2.5rem;
+    height: 1.5rem;
+    position: absolute;
+    left: 0%;
+    top: 50%;
+    transform: translateY(-50%) translateX(66%);
+    border-radius: 0.3rem;
+}
+
+.channel_inner_item_block {
+    width: 100%;
+
+    position: absolute;
+    padding: 2%;
+    opacity: 0;
+    transition: all 0.5s linear 0s;
+
+    /* transform: scale(0.8);
+    /* opacity: 1; */
+    height: 100%;
+}
+
+.channelssss {
+    height: 100%;
+}
+
+.item_block {
+    position: relative;
+    width: 100%;
+    height: 12.3%;
+    background-color: #35343a;
+    margin-bottom: 1.5%;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item_block_number {
+    font-size: 3rem;
+    display: inline-block;
+    width: 15%;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+}
+
+.item_block_text {
+    font-size: 3rem;
+    display: inline-block;
+    width: 65%;
+    padding-left: 3%;
+    color: #fff;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.channel_title::after {
+    content: "";
+    position: absolute;
+    width: 1.5rem;
+    height: 1.5rem;
+    right: 2%;
+    margin-top: 1%;
+    border-radius: 100%;
+    background-color: #dfee0b;
+}
+
+.category_search_block {
+    width: 57%;
+    height: 100%;
+    position: absolute;
+    display: inline-block;
+    right: 1%;
+    opacity: 0;
+}
+
+.item_block_icon {
+    display: inline-block;
+    width: 16.5%;
+    height: 90%;
+    background-repeat: no-repeat;
+    background-size: 65%;
+    background-position: center;
+}
+
+.category_search_elem {
+    width: 80%;
+    margin-left: 18%;
+    margin-top: 45%;
+    border-radius: 1rem;
+    background-color: #35343a;
+    overflow: hidden;
+    background-image: url(../img/icons/search.png);
+    background-repeat: no-repeat;
+    background-size: 2rem;
+    background-position: 1.7rem center;
+}
+
+.category_search_elem .input {
+    width: 80%;
+    margin-left: 5rem;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    line-height: 3rem;
+    padding: 1rem 0;
+}
+
+.keyboard_parent {
+    position: absolute;
+    top: 40%;
+    left: 3%;
+    width: 94%;
+    height: 30%;
+    margin-top: 20%;
+    margin-bottom: 1%;
+}
+
+/* .keyboard__inner-block {
+    width: 100%;
+} */
+
+.channels__ {
+    width: 96%;
+    margin: .5% 0;
+    height: 80%;
+    position: absolute;
+    /* background-color: #2e844e; */
+}
+
+.child_category_block {
+    width: 100%;
+    height: 100;
+    position: absolute;
+    padding: 2%;
+    opacity: 1;
+    transition: all 0.5s linear 0;
+}
+
+.exit_liveTV_popup_parent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* z-index: 999999999999; */
+    display: flex;
+    justify-content: center;
+    /* z-index: 1; */
+    background: rgba(45, 45, 45, .30);
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.exit_tv_popup {
+    background: rgba(42, 41, 46, .9);
+    padding: 5rem;
+    z-index: 99999;
+    border-radius: 0.4rem;
+}
+
+.exit_tv_popup_title {
+    text-align: center;
+    color: #fff;
+    font-size: 4rem;
+    line-height: 4rem;
+}
+
+.exit_tv_popup_button {
+    width: 100%;
+    height: 20%;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.exit_tv_popup_btn {
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 1rem 5rem;
+    border-radius: 0.6rem;
+    cursor: pointer;
+}
+
+.active_btn {
+    border: 0.2rem solid white;
+    background: #2e844e;
+    color: white;
+}
+
+.items {
+    font-size: 12%;
+    color: #fff;
+}
+
+.full_screean {
+    background-color: #29282d;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    object-fit: cover;
+    margin: 0 !important;
+    width: 100%;
+    height: 100%;
+}

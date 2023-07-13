@@ -1,0 +1,66 @@
+.settings__block {
+  width: 98%;
+  height: 96%;
+  position: absolute;
+  margin: 1%;
+  top: 0;
+  left: 0;
+}
+
+.block__inner {
+  width: 4%;
+  height: 100%;
+  position: absolute;
+  display: inline-block;
+  left: 0;
+}
+
+.block_link .block__inner-Link {
+  width: 7rem;
+  height: 7rem;
+  background-image: url(./img/icons/back.png);
+  background-repeat: no-repeat;
+  background-size: 3rem;
+  background-position: 40%;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  background-color: #35343a;
+}
+
+.block__inner-setings {
+  position: absolute;
+  width: 91%;
+  height: 100%; 
+  left: 4.5%;
+  z-index: 1;
+}
+
+.setings__title {
+  position: absolute;
+  width: 25%;
+  height: 8%;
+  top: 0;
+  left: 0;
+}
+
+.pop__title-lung {
+  width: 90%;
+  height: 60%;
+  line-height: 3.4rem;
+  font-size: 4rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+.lanImg {
+  position: absolute;
+  right: 5%;
+  top: 25%;
+  width: 10%;
+  height: 50%;
+}

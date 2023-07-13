@@ -1,0 +1,75 @@
+.images__menu {
+  width: 100%;
+  height: 20%;
+  position: fixed;
+  top: 8%;
+  background-position: center;
+  background-image: url(../img/logo-large.png);
+  background-size: 25%;
+  background-repeat: no-repeat;
+}
+
+.menu__block {
+  position: absolute;
+  width: 100%;
+  top: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu__item {
+  background-size: 46%;
+  height: 30rem;
+  width: 30rem;
+  border-radius: 2rem;
+  margin: 5rem;
+  background-color: rgb(32, 32, 32);
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center 30%;
+  cursor: pointer;
+  border: 0.3rem solid #313131;
+  transition: all .2s linear;
+  font-size: 3rem;
+}
+
+.menu-active {
+  border-color: #41a901;
+  transform: scale(1.05);
+}
+
+.btn_menu {
+  border-color: #41a901;
+  transform: scale(1.05);
+}
+
+.tv {
+  background-image: url(./img/menu/tv.png);
+  background-size: 45%;
+}
+
+.movies {
+  background-image: url(./img/menu/MOVIES.png);
+  background-size: 49%;
+}
+
+.series {
+  background-image: url(./img/menu/series.png);
+  background-size: 40%;
+}
+
+.settings {
+  background-image: url(./img/menu/SETTINGS.png);
+  background-size: 40%;
+}
+
+.menu__title-row {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: 8%;
+  font-size: 3rem;
+  font-weight: 600;
+  color: white;
+}

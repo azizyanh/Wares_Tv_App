@@ -1,0 +1,185 @@
+.settings__block {
+  width: 98%;
+  height: 96%;
+  position: absolute;
+  margin: 1%;
+  top: 0;
+  left: 0;
+}
+
+.block__inner {
+  width: 4%;
+  height: 100%;
+  position: absolute;
+  display: inline-block;
+  left: 0;
+}
+
+.block_link .block__inner-Link {
+  width: 7rem;
+  height: 7rem;
+  background-image: url(./img/icons/back.png);
+  background-repeat: no-repeat;
+  background-size: 3rem;
+  background-position: 40%;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  background-color: #35343a;
+}
+
+.block__inner-setings {
+  position: absolute;
+  width: 91%;
+  height: 100%;
+  left: 4.5%;
+  z-index: 1;
+}
+
+.setings__title {
+  position: absolute;
+  width: 25%;
+  height: 8%;
+  top: 0;
+  left: 0;
+}
+
+.pop__title {
+  width: 90%;
+  height: 60%;
+  line-height: 3.4rem;
+  font-size: 4rem;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+.setings_content_parent {
+  position: absolute;
+  width: 44%;
+  height: 82rem;
+  top: 9%;
+  left: 27%;
+  /* padding: 2%; */
+  overflow: hidden;
+}
+
+.setings__content-block {
+  position: absolute;
+  width: 96%;
+  height: 100%;
+  padding: 2%;
+}
+
+.setings__item-block {
+  font-weight: bold;
+  position: relative;
+  width: 100%;
+  height: 8rem;
+  background-color: #35343a;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+
+.setings__item-block:hover {
+  background-color: #504e56;
+}
+
+.active {
+  background-color: #2e844e !important;
+}
+
+.block__video .active {
+  background-image: url(./img/player/settingsActive.png) !important;
+  background-color: transparent !important;
+}
+
+
+.xtream_item {
+  position: absolute;
+  width: 12%;
+  height: 100%;
+  background-image: url(http://www.w3.org/2000/svg);
+  background-repeat: no-repeat;
+  background-size: 45%;
+  background-position: 50%;
+}
+
+.xtream__item-title {
+  position: absolute;
+  width: 77%;
+  font-size: 3rem;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+
+.checkbox__item {
+  position: absolute;
+  right: 8%;
+  top: 45%;
+  transform: translateY(-50%);
+}
+
+.checkbox {
+  user-select: none;
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  visibility: hidden;
+}
+
+.round {
+  position: absolute;
+  cursor: pointer;
+  top: 20%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.round.slider {
+  width: 4rem;
+  height: 2rem;
+  border-radius: 3.4rem;
+  background: white;
+}
+
+.round__chackbox {
+  position: absolute;
+  height: 1.3rem;
+  width: 1.3rem;
+  left: 0.4rem;
+  bottom: 0.4rem;
+  background-color: grey;
+  transition: all .3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.round__chackbox {
+  border-radius: 50%;
+}
+
+.timezone__rolex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.timezone__itemsss {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.language__itemsss {
+  display: flex;
+}

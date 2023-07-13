@@ -1,0 +1,121 @@
+.password__block {
+  position: absolute;
+  width: 91%;
+  height: 100%;
+  left: 4.5%;
+  z-index: 1;
+}
+
+.pasword__parent {
+  position: absolute;
+  width: 50%;
+  height: 40%;
+  top: 25%;
+  left: 25%;
+}
+
+.pin__title {
+  font-size: 5rem;
+  line-height: 10rem;
+  text-align: center;
+  color: #fff;
+}
+
+.pas__row-list {
+  width: 100%;
+  height: 45%;
+}
+
+.pin__input {
+  width: 22%;
+  margin: 1.5%;
+  height: 100%;
+  background-color: #35343a;
+  float: left;
+  border-radius: 3rem;
+  color: white;
+  font-size: 0;
+  text-align: center;
+  cursor: pointer;
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.pin__input:hover {
+  background-color:  #2e844e
+}
+
+.block__inner {
+  position: absolute;
+  width: 4%;
+  height: 100%;
+  display: inline-block;
+  left: 0;
+}
+
+.block__inner-Link {
+  position: absolute;
+  width: 7rem;
+  height: 7rem;
+  background-image: url(./img/icons/back.png);
+  background-repeat: no-repeat;
+  background-size: 3rem;
+  background-position: 40%;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  background-color: #35343a;
+}
+
+.block__inner-Link:hover {
+  background-color: #2e844e;
+}
+
+.pin_active {
+  background-color: #3ca45f !important;
+}
+
+.back__active {
+  background-color: #3ca45f !important;
+}
+
+.keyboard_number {
+  position: absolute;
+  width: 105rem;
+  left: 33.5rem;
+  bottom: 0;
+  z-index: 9;
+}
+
+.pin__keyboard {
+  position: relative;
+  height: 9rem;
+  border: 4.1rem solid transparent;
+  text-align: center;
+  display: inline-block;
+  border-radius: 0.4rem;
+  background-color: #35343a;
+  margin: 0.3rem;
+  cursor: pointer;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.keyboard__charackter-active {
+  background-color: #3ca45f !important;
+}
+
+.pin__error {
+  font-size: 5rem;
+  line-height: 10rem;
+  text-align: center;
+  color: red;
+}
+
+.pin__success {
+  font-size: 5rem;
+  line-height: 10rem;
+  text-align: center;
+  color: #00b307;
+}

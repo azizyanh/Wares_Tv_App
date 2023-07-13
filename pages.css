@@ -1,0 +1,135 @@
+
+.pages_move_block {
+  background-color: #29282d;
+  width: 100%;
+  height: 99%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.block__inner {
+  position: absolute;
+  width: 4%;
+  height: 100%;
+  display: inline-block;
+  left: 1%;
+  padding-top: 1%;
+}
+
+.moves__block {
+  position: absolute;
+  width: 100%;
+  height: 8%;
+  z-index: 1;
+
+}
+
+.pop__title-search {
+  font-size: 4rem;
+  color: #fff;
+  width: 95%;
+  height: 65%;
+  margin-top: 1.8%;
+  margin-left: 1.2%;
+  z-index: 1;
+
+}
+
+.move_content_block {  
+  position: absolute;
+  width: 91%;
+  height: 100%;
+  left: 4.5%;
+  z-index: 1;
+}
+
+.move_search_inerblock {
+  position: absolute;
+  width: 100%;
+  height: 92%;
+  bottom: 0;
+  z-index: 1;
+}
+
+.move_not_found {
+  position: relative;
+  width: 100%;
+  height: 46%;
+  margin: .5% 0;
+  z-index: 1;
+}
+
+.move_not_found_img {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  z-index: 1;
+}
+
+.ime_found {
+  width: 10%;
+  margin-top: 2%;
+  z-index: 1;
+
+}
+
+.not_found_story {
+  margin-top: 0;
+  font-size: 3rem;
+  color: #fff;
+  z-index: 1;
+}
+
+.move_keyboard_search {
+  width: 100%;
+  height: 7%;
+  margin-top: 1.5%;
+}
+
+.move_content_inerSearch {
+  width: 65%;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+
+.move_input {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #35343a;
+  font-size: 3rem;
+  font-weight: 100;
+  color: #fff;
+  border-radius: 0.4rem;
+  border: 1.5rem solid #35343a;
+  padding: 0.2rem 5.5rem;
+  outline: none;
+}
+
+.move_input_icon {
+  width: 7.5rem;
+  height: 6.5rem;
+  background-image: url(../img/icons/search.png);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: center;
+  position: absolute;
+  top: 0%;
+  left: 0;
+}
+
+.move_keyboard_block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+}  
